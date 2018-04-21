@@ -24,12 +24,12 @@ app.use(bodyParser.json())
 // ejs Configuration
 app.set('view engine', 'ejs')
 app.use(ejsLayouts)
-app.use(express.static(`${__dirname}`))
+app.use(express.static(`${__dirname}/public`))
 
 
 // Root route
 app.get('/', (req, res) => {
-  res.json("root route bro!")
+  res.render('index')
 })
 
 
