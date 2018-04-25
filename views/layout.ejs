@@ -1,56 +1,55 @@
 <!-- DaDragon layout.ejs code -->
 <!DOCTYPE html>
 <html>
-<head>
-  <!-- JQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <!-- Local css file -->
-  <link rel="stylesheet" href="/css/styles.css">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <!-- Materialize icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- Title -->
-  <title>RWB Bottle</title>
-</head>
+  <head>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Local css file -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- Materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Title -->
+    <title>RWB Bottle</title>
+  </head>
 
-<body>
-  <!-- Set the navbar on every page client visits -->
-  <%- include('./partials/navbar.ejs') %>
+  <body>
+    
+    <!-- Set the navbar on every page client visits -->
+    <%- include('./partials/navbar.ejs') %>
 
-  <!-- All other ejs views are serve here -->
-  <%- body %>
-  
-  
+    <!-- All other ejs views are serve here -->
+    <%- body %>
+    
+    <!-- Sidenav, carousel init script -->
+    <script>  
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
+
+    <script>
+      $(document).ready(function() {
+        // Init carousel slider
+        $('.carousel.carousel-slider').carousel({
+          fullWidth: true,
+          indicators: true,
+        });
+      });
+    </script>
+
   <!-- Local JS file -->
   <script src="/js/app.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script></script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <!-- Sidenav init js -->
-  <script>  
-  $(document).ready(function(){
-      $('.sidenav').sidenav();
-    });
-  </script>
-
-  <script>
-    $(document).ready(function() {
-      // Init carousel slider
-      $('.carousel.carousel-slider').carousel({
-        fullWidth: true,
-        indicators: true 
-      });
-    });
-  </script>
-
-
-</body>
+  </body>
 
 </html>
 
