@@ -11,3 +11,11 @@
 #topcarousel {
   position: relative;
 }
+
+.midadtext {
+  position: absolute;
+  font-size: 40px !important;
+  font-weight: bold !important;
+  width: 400px;
+  margin: 0px 0px 300px 30px;
+}
