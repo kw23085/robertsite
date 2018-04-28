@@ -35,8 +35,9 @@
 
 .midadlink {
   position: relative;
-  font-size: 2vw !important;
-  width: 130px;
-  min-width: 130px;
+  font-weight: bold !important;
+  font-size: 1vw !important;
+  width: 165px;
+  min-width: 165px;
   margin: 0px 0px 5vw 0vw;
 }
