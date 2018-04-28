@@ -16,10 +16,27 @@
   font-size: 3vw !important;
 }
 
-.midadtext {
+.midadtext1 {
   position: relative;
   font-weight: bold !important;
   width: 400px;
   min-width: 400px;
-  margin: 0px 0px 13vw 1vw;
+  margin: 0px 0px 19vw 0vw;
+}
+
+.midadtext2 {
+  position: relative;
+  font-weight: bold !important;
+  font-size: 1vw !important;
+  width: 400px;
+  min-width: 400px;
+  margin: 0px 0px 13vw 0vw;
+}
+
+.midadlink {
+  position: relative;
+  font-size: 2vw !important;
+  width: 130px;
+  min-width: 130px;
+  margin: 0px 0px 5vw 0vw;
 }
