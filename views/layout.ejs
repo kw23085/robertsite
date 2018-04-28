@@ -26,15 +26,17 @@
     <!-- All other ejs views are serve here -->
     <%- body %>
     
-    <!-- Sidenav, carousel init script -->
-    <script>  
-      $(document).ready(function(){
-        $('.sidenav').sidenav();
-      });
-    </script>
-
     <script>
       $(document).ready(function() {
+        // Init sidenav
+        $('.sidenav').sidenav();
+
+        $('.slider').slider({
+          indicators: true,
+          transition: 500,
+          interval: 6000
+        });
+
         // Init carousel slider
         $('.carousel.carousel-slider').carousel({
           fullWidth: true,

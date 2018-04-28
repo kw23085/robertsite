@@ -12,10 +12,14 @@
   position: relative;
 }
 
+.dynamicText{
+  font-size: 3vw !important;
+}
+
 .midadtext {
-  position: absolute;
-  font-size: 40px !important;
+  position: relative;
   font-weight: bold !important;
   width: 400px;
-  margin: 0px 0px 300px 30px;
+  min-width: 400px;
+  margin: 0px 0px 13vw 1vw;
 }
