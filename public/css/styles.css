@@ -37,7 +37,73 @@
   position: relative;
   font-weight: bold !important;
   font-size: 1vw !important;
-  width: 165px;
-  min-width: 165px;
   margin: 0px 0px 5vw 0vw;
 }
+
+.botSoc {
+  height: 800px;
+}
+
+.socDiv1 {
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+}
+
+.socDiv2 {
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+}
+
+.socImg1 {
+  position: relative;
+  width: 70%;
+  margin: 6vw 0px 0px 10vw;
+}
+
+.socImg2 {
+  position: relative;
+  width: 70%;
+  margin: 6vw 0px 0px 6vw;
+}
+
+.socLink1 {
+  position: relative;
+  font-size: 1vw !important;
+  margin: 6vw 0px 0px 23vw;
+}
+
+.socLink2 {
+  position: relative;
+  font-size: 1vw !important;
+  margin: 6vw 0px 0px 20vw;
+}
+
+.socTitle1 {
+  position: relative;
+  font-size: 2vw !important;
+  margin: 1vw 0px 0px 21vw;  
+}
+
+.socTitle2 {
+  position: relative;
+  font-size: 2vw !important;
+  margin: 1vw 0px 0px 16vw;  
+}
+
+.socContent1 {
+  position: relative;
+  width: 70%;
+  font-size: 1vw !important;
+  margin: 2vw 0px 0px 10vw;
+}
+
+.socContent2 {
+  position: relative;
+  width: 70%;
+  font-size: 1vw !important;
+  margin: 2vw 0px 0px 6vw;
+}
+
+
