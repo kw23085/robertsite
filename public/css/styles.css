@@ -112,11 +112,41 @@
   margin: 2vw 0px 0px 6vw;
 }
 
+.footer {
+  background-color: #A3A6CF !important;
+}
+
 .footerDynamicTitle {
-  font-size: 1vw;
+  font-size: 130%;
   font-weight: bold !important;
 }
 
 .footerDynamicContent {
-  font-size: 1vw;
+  font-size: 85%;
+}
+
+.inputDiv {
+  width: 80%;
+  /* padding: 3% 0px 0px 0px; */
+}
+
+#email {
+  height: 2rem !important;
+  padding: 2% 0px 0px 0px;
+}
+
+#botSocGroup {
+  padding: 10% 0px 25% 0px;
+}
+
+#socIcon {
+  color: #A3A6CF;
+}
+
+#socBtn {
+  background-color: white;
+}
+
+.footer-copyright {
+  font-size: 70%;
 }
