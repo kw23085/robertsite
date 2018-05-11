@@ -26,6 +26,7 @@
   width: 400px;
   min-width: 400px;
   margin: 0px 0px 19vw 3vw;
+  padding: 0px !important;
 }
 
 .midadtext2 {
@@ -35,6 +36,7 @@
   width: 400px;
   min-width: 400px;
   margin: 0px 0px 13vw 3vw;
+  padding: 0px !important;
 }
 
 .midadlink {
