@@ -32,7 +32,13 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
+app.get('/about', (req, res) => {
+  res.render('about')
+})
 
+app.get('/product', (req, res) => {
+  res.render('product')
+})
 
 // Port
 app.listen(port,(err) => {
