@@ -156,3 +156,56 @@
 .footer-copyright {
   font-size: 70%;
 }
+
+.mainbox {
+  background-color: greenyellow;
+  height: 92vh;
+}
+
+.productinfo {
+  background-color: pink;
+  height: 50vh;
+  width: 50vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.smallproductinfo {
+  background-color: pink;
+  height: 50vh;
+  width: 50vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.midinfo {
+  background-color: yellow;
+  height: 50vh;
+  width: 50vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.smallmidinfo {
+  background-color: yellow;
+  height: 50vh;
+  width: 50vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.rightinfo {
+  background-color: lightblue;
+  height: 50vh;
+  width: 50vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.smallrightinfo {
+  background-color: lightblue;
+  height: 50vh;
+  width: 50vw;
+  border-color: black;
+  border-style: solid;
+}
