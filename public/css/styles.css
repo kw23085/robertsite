@@ -242,7 +242,7 @@ h4 {
   font-size: 1.75em !important;
   font-weight: 500 !important;
 }
-@media all and (max-width: 800px){
+@media all and (max-width: 992px){
   h1{
     font-size: 2.5em !important;
     font-weight: 500 !important;
